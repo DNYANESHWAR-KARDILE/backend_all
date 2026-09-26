@@ -1,0 +1,15 @@
+npm init -y
+npm i express
+npm i mongoose
+
+npx nodemon server.js
+
+models folder for the schema design
+example.model.js
+
+find() ye sara [] deta hai 
+findOne() ek specefic condition deta hai
+
+imagekit cloud storage hai 
+
+multer ek middleware hai jaise app.use(express.json()); ye sirf raw deta readable banata hai lekin file ko dekhne keliye multer i karna padta hai
