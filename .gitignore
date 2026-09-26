@@ -1,2 +1,8 @@
 initialbackend/backend/.env
 postapp/backend/.env
+
+initialbackend/backend/node_modules
+postapp/backend/node_modules
+
+initialbackend/frontend/node_modules
+postapp/frontend/node_modules
