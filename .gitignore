@@ -1,2 +1,2 @@
-initialbackend/.env
-postapp/.env
+initialbackend/backend/.env
+postapp/backend/.env
