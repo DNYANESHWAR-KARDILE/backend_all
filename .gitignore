@@ -6,3 +6,5 @@ postapp/backend/node_modules
 
 initialbackend/frontend/node_modules
 postapp/frontend/node_modules
+
+/authapi/

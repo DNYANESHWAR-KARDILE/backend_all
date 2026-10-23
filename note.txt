@@ -41,3 +41,9 @@ Login ke baad check karta hai ki user ko kya karne ki permission hai.
 Example: Customer product buy kar sakta hai.
 Lekin product delete sirf Admin kar sakta hai.
 Authorization = Tum kya kar sakte ho?
+
+
+jsonwebtoken packege i need for the token sharing
+
+npm install cookie-parser
+cookie-parser is an Express.js middleware used to read and parse cookies sent by the browser. It takes the HTTP Cookie header and makes the cookies available through req.cookies
