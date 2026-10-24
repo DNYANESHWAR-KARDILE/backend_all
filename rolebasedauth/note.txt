@@ -1,0 +1,54 @@
+npm init -y
+npm i express
+npm i mongoose
+npm i jsonwebtoken
+npm i cookie-parser
+npm i bcryptjs
+
+npx nodemon server.js
+
+models folder for the schema design
+example.model.js
+
+find() ye sara [] deta hai 
+findOne() ek specefic condition deta hai
+
+imagekit cloud storage hai 
+
+multer ek middleware hai jaise app.use(express.json()); ye sirf raw deta readable banata hai lekin file ko dekhne keliye multer i karna padta hai
+
+
+
+1. Validation
+User ne jo data diya hai, wo sahi format me hai ya nahi check karta hai.
+Example: Email me @ hai ya nahi.
+Password kam se kam 8 characters ka hai ya nahi.
+Validation = Data sahi hai?
+
+2. Verification
+Di gayi information actually true hai ya nahi confirm karta hai.
+Example: Email par OTP bhejkar check karna.
+Sahi OTP dala → Email verified.
+Verification = Ye sach/genuine hai?
+
+
+3. Authentication
+System check karta hai ki user kaun hai.
+Example: Email + Password se login karna.
+Correct credentials → User identify ho gaya.
+Authentication = Tum kaun ho?
+
+
+4. Authorization
+Login ke baad check karta hai ki user ko kya karne ki permission hai.
+Example: Customer product buy kar sakta hai.
+Lekin product delete sirf Admin kar sakta hai.
+Authorization = Tum kya kar sakte ho?
+
+
+jsonwebtoken packege i need for the token sharing
+
+npm install cookie-parser
+cookie-parser is an Express.js middleware used to read and parse cookies sent by the browser. It takes the HTTP Cookie header and makes the cookies available through req.cookies
+
+npm i bcryptjs for the password hashing
